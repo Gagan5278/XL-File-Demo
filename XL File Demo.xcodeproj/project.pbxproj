@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBB5B1119EC03B200CA586A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBB5B1019EC03B200CA586A /* UIKit.framework */; };
+		CEBB5B1319EC03B200CA586A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBB5B1219EC03B200CA586A /* Foundation.framework */; };
+		CEBB5B1519EC03B200CA586A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBB5B1419EC03B200CA586A /* CoreGraphics.framework */; };
+		CEBB5B1B19EC03B200CA586A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B1919EC03B200CA586A /* InfoPlist.strings */; };
+		CEBB5B1D19EC03B200CA586A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B1C19EC03B200CA586A /* main.m */; };
+		CEBB5B2319EC03B200CA586A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B2219EC03B200CA586A /* Default.png */; };
+		CEBB5B2519EC03B200CA586A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B2419EC03B200CA586A /* Default@2x.png */; };
+		CEBB5B2719EC03B200CA586A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B2619EC03B200CA586A /* Default-568h@2x.png */; };
+		CEBB5B4A19EC044400CA586A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B2F19EC044400CA586A /* AppDelegate.m */; };
+		CEBB5B4B19EC044400CA586A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B3019EC044400CA586A /* MainWindow.xib */; };
+		CEBB5B4C19EC044400CA586A /* FileViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B3319EC044400CA586A /* FileViewerController.m */; };
+		CEBB5B4D19EC044400CA586A /* FileViewerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B3419EC044400CA586A /* FileViewerController.xib */; };
+		CEBB5B4E19EC044400CA586A /* XL_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B3619EC044400CA586A /* XL_Icon.png */; };
+		CEBB5B4F19EC044400CA586A /* XL_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B3719EC044400CA586A /* XL_Icon@2x.png */; };
+		CEBB5B5019EC044400CA586A /* README in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B3919EC044400CA586A /* README */; };
+		CEBB5B5119EC044400CA586A /* RSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B3B19EC044400CA586A /* RSCell.m */; };
+		CEBB5B5219EC044400CA586A /* RSStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B3D19EC044400CA586A /* RSStyle.m */; };
+		CEBB5B5319EC044400CA586A /* RSworkBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B3F19EC044400CA586A /* RSworkBook.m */; };
+		CEBB5B5419EC044400CA586A /* RSworkSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B4119EC044400CA586A /* RSworkSheet.m */; };
+		CEBB5B5519EC044400CA586A /* RSworkSheetRow.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B4319EC044400CA586A /* RSworkSheetRow.m */; };
+		CEBB5B5619EC044400CA586A /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B4519EC044400CA586A /* UIColor-Expanded.m */; };
+		CEBB5B5719EC044400CA586A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5B4819EC044400CA586A /* ViewController.m */; };
+		CEBB5B5819EC044400CA586A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBB5B4919EC044400CA586A /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEBB5B0D19EC03B200CA586A /* XL File Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XL File Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB5B1019EC03B200CA586A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEBB5B1219EC03B200CA586A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEBB5B1419EC03B200CA586A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEBB5B1819EC03B200CA586A /* XL File Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XL File Demo-Info.plist"; sourceTree = "<group>"; };
+		CEBB5B1A19EC03B200CA586A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEBB5B1C19EC03B200CA586A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBB5B1E19EC03B200CA586A /* XL File Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XL File Demo-Prefix.pch"; sourceTree = "<group>"; };
+		CEBB5B2219EC03B200CA586A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEBB5B2419EC03B200CA586A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEBB5B2619EC03B200CA586A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEBB5B2E19EC044400CA586A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEBB5B2F19EC044400CA586A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEBB5B3019EC044400CA586A /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CEBB5B3219EC044400CA586A /* FileViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewerController.h; sourceTree = "<group>"; };
+		CEBB5B3319EC044400CA586A /* FileViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewerController.m; sourceTree = "<group>"; };
+		CEBB5B3419EC044400CA586A /* FileViewerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileViewerController.xib; sourceTree = "<group>"; };
+		CEBB5B3619EC044400CA586A /* XL_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XL_Icon.png; sourceTree = "<group>"; };
+		CEBB5B3719EC044400CA586A /* XL_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XL_Icon@2x.png"; sourceTree = "<group>"; };
+		CEBB5B3919EC044400CA586A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CEBB5B3A19EC044400CA586A /* RSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCell.h; sourceTree = "<group>"; };
+		CEBB5B3B19EC044400CA586A /* RSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCell.m; sourceTree = "<group>"; };
+		CEBB5B3C19EC044400CA586A /* RSStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSStyle.h; sourceTree = "<group>"; };
+		CEBB5B3D19EC044400CA586A /* RSStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSStyle.m; sourceTree = "<group>"; };
+		CEBB5B3E19EC044400CA586A /* RSworkBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSworkBook.h; sourceTree = "<group>"; };
+		CEBB5B3F19EC044400CA586A /* RSworkBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSworkBook.m; sourceTree = "<group>"; };
+		CEBB5B4019EC044400CA586A /* RSworkSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSworkSheet.h; sourceTree = "<group>"; };
+		CEBB5B4119EC044400CA586A /* RSworkSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSworkSheet.m; sourceTree = "<group>"; };
+		CEBB5B4219EC044400CA586A /* RSworkSheetRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSworkSheetRow.h; sourceTree = "<group>"; };
+		CEBB5B4319EC044400CA586A /* RSworkSheetRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSworkSheetRow.m; sourceTree = "<group>"; };
+		CEBB5B4419EC044400CA586A /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		CEBB5B4519EC044400CA586A /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		CEBB5B4719EC044400CA586A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEBB5B4819EC044400CA586A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEBB5B4919EC044400CA586A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBB5B0A19EC03B200CA586A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB5B1119EC03B200CA586A /* UIKit.framework in Frameworks */,
+				CEBB5B1319EC03B200CA586A /* Foundation.framework in Frameworks */,
+				CEBB5B1519EC03B200CA586A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBB5B0419EC03B200CA586A = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B1619EC03B200CA586A /* XL File Demo */,
+				CEBB5B0F19EC03B200CA586A /* Frameworks */,
+				CEBB5B0E19EC03B200CA586A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBB5B0E19EC03B200CA586A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B0D19EC03B200CA586A /* XL File Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBB5B0F19EC03B200CA586A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B1019EC03B200CA586A /* UIKit.framework */,
+				CEBB5B1219EC03B200CA586A /* Foundation.framework */,
+				CEBB5B1419EC03B200CA586A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEBB5B1619EC03B200CA586A /* XL File Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B2D19EC044400CA586A /* AppDelegate */,
+				CEBB5B3119EC044400CA586A /* FileViewer */,
+				CEBB5B3519EC044400CA586A /* Images */,
+				CEBB5B3819EC044400CA586A /* RSSheet XLCreater */,
+				CEBB5B4619EC044400CA586A /* ViewController */,
+				CEBB5B1719EC03B200CA586A /* Supporting Files */,
+			);
+			path = "XL File Demo";
+			sourceTree = "<group>";
+		};
+		CEBB5B1719EC03B200CA586A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B1819EC03B200CA586A /* XL File Demo-Info.plist */,
+				CEBB5B1919EC03B200CA586A /* InfoPlist.strings */,
+				CEBB5B1C19EC03B200CA586A /* main.m */,
+				CEBB5B1E19EC03B200CA586A /* XL File Demo-Prefix.pch */,
+				CEBB5B2219EC03B200CA586A /* Default.png */,
+				CEBB5B2419EC03B200CA586A /* Default@2x.png */,
+				CEBB5B2619EC03B200CA586A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBB5B2D19EC044400CA586A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B2E19EC044400CA586A /* AppDelegate.h */,
+				CEBB5B2F19EC044400CA586A /* AppDelegate.m */,
+				CEBB5B3019EC044400CA586A /* MainWindow.xib */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CEBB5B3119EC044400CA586A /* FileViewer */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B3219EC044400CA586A /* FileViewerController.h */,
+				CEBB5B3319EC044400CA586A /* FileViewerController.m */,
+				CEBB5B3419EC044400CA586A /* FileViewerController.xib */,
+			);
+			path = FileViewer;
+			sourceTree = "<group>";
+		};
+		CEBB5B3519EC044400CA586A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B3619EC044400CA586A /* XL_Icon.png */,
+				CEBB5B3719EC044400CA586A /* XL_Icon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CEBB5B3819EC044400CA586A /* RSSheet XLCreater */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B3919EC044400CA586A /* README */,
+				CEBB5B3A19EC044400CA586A /* RSCell.h */,
+				CEBB5B3B19EC044400CA586A /* RSCell.m */,
+				CEBB5B3C19EC044400CA586A /* RSStyle.h */,
+				CEBB5B3D19EC044400CA586A /* RSStyle.m */,
+				CEBB5B3E19EC044400CA586A /* RSworkBook.h */,
+				CEBB5B3F19EC044400CA586A /* RSworkBook.m */,
+				CEBB5B4019EC044400CA586A /* RSworkSheet.h */,
+				CEBB5B4119EC044400CA586A /* RSworkSheet.m */,
+				CEBB5B4219EC044400CA586A /* RSworkSheetRow.h */,
+				CEBB5B4319EC044400CA586A /* RSworkSheetRow.m */,
+				CEBB5B4419EC044400CA586A /* UIColor-Expanded.h */,
+				CEBB5B4519EC044400CA586A /* UIColor-Expanded.m */,
+			);
+			path = "RSSheet XLCreater";
+			sourceTree = "<group>";
+		};
+		CEBB5B4619EC044400CA586A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB5B4719EC044400CA586A /* ViewController.h */,
+				CEBB5B4819EC044400CA586A /* ViewController.m */,
+				CEBB5B4919EC044400CA586A /* ViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBB5B0C19EC03B200CA586A /* XL File Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB5B2A19EC03B200CA586A /* Build configuration list for PBXNativeTarget "XL File Demo" */;
+			buildPhases = (
+				CEBB5B0919EC03B200CA586A /* Sources */,
+				CEBB5B0A19EC03B200CA586A /* Frameworks */,
+				CEBB5B0B19EC03B200CA586A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XL File Demo";
+			productName = "XL File Demo";
+			productReference = CEBB5B0D19EC03B200CA586A /* XL File Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBB5B0519EC03B200CA586A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Gagan;
+			};
+			buildConfigurationList = CEBB5B0819EC03B200CA586A /* Build configuration list for PBXProject "XL File Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEBB5B0419EC03B200CA586A;
+			productRefGroup = CEBB5B0E19EC03B200CA586A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBB5B0C19EC03B200CA586A /* XL File Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBB5B0B19EC03B200CA586A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB5B1B19EC03B200CA586A /* InfoPlist.strings in Resources */,
+				CEBB5B2319EC03B200CA586A /* Default.png in Resources */,
+				CEBB5B2519EC03B200CA586A /* Default@2x.png in Resources */,
+				CEBB5B2719EC03B200CA586A /* Default-568h@2x.png in Resources */,
+				CEBB5B4B19EC044400CA586A /* MainWindow.xib in Resources */,
+				CEBB5B4D19EC044400CA586A /* FileViewerController.xib in Resources */,
+				CEBB5B4E19EC044400CA586A /* XL_Icon.png in Resources */,
+				CEBB5B4F19EC044400CA586A /* XL_Icon@2x.png in Resources */,
+				CEBB5B5019EC044400CA586A /* README in Resources */,
+				CEBB5B5819EC044400CA586A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBB5B0919EC03B200CA586A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB5B1D19EC03B200CA586A /* main.m in Sources */,
+				CEBB5B4A19EC044400CA586A /* AppDelegate.m in Sources */,
+				CEBB5B4C19EC044400CA586A /* FileViewerController.m in Sources */,
+				CEBB5B5119EC044400CA586A /* RSCell.m in Sources */,
+				CEBB5B5219EC044400CA586A /* RSStyle.m in Sources */,
+				CEBB5B5319EC044400CA586A /* RSworkBook.m in Sources */,
+				CEBB5B5419EC044400CA586A /* RSworkSheet.m in Sources */,
+				CEBB5B5519EC044400CA586A /* RSworkSheetRow.m in Sources */,
+				CEBB5B5619EC044400CA586A /* UIColor-Expanded.m in Sources */,
+				CEBB5B5719EC044400CA586A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEBB5B1919EC03B200CA586A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBB5B1A19EC03B200CA586A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBB5B2819EC03B200CA586A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEBB5B2919EC03B200CA586A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBB5B2B19EC03B200CA586A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XL File Demo/XL File Demo-Prefix.pch";
+				INFOPLIST_FILE = "XL File Demo/XL File Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEBB5B2C19EC03B200CA586A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XL File Demo/XL File Demo-Prefix.pch";
+				INFOPLIST_FILE = "XL File Demo/XL File Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBB5B0819EC03B200CA586A /* Build configuration list for PBXProject "XL File Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB5B2819EC03B200CA586A /* Debug */,
+				CEBB5B2919EC03B200CA586A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBB5B2A19EC03B200CA586A /* Build configuration list for PBXNativeTarget "XL File Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB5B2B19EC03B200CA586A /* Debug */,
+				CEBB5B2C19EC03B200CA586A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBB5B0519EC03B200CA586A /* Project object */;
+}
